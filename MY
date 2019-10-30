@@ -1,4 +1,72 @@
 #EXTM3U
+#EXTINF:1,BABY TV
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/49114.ts
+#EXTINF:1,BLUE ANT EXTREME
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/32254.ts
+#EXTINF:1,BLUE ANT ENTERTAINMENT
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/49147.ts
+#EXTINF:1,BOOMERANG
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/49134.ts
+#EXTINF:1,CINEMAWORLD
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/49136.ts
+#EXTINF:1,DREAMWORKS
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/49133.ts
+#EXTINF:1,DUNIA SINEMA
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/49112.ts
+#EXTINF:1,FOX
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/49118.ts
+#EXTINF:1,FOX ACTION MOVIES
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/49119.ts
+#EXTINF:1,FOX FAMILY MOVIES
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/49117.ts
+#EXTINF:1,FOX MOVIES
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/49120.ts
+#EXTINF:1,FX
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/49115.ts
+#EXTINF:1,HBO
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/49145.ts
+#EXTINF:1,RED BY HBO
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/49144.ts
+#EXTINF:1,NATGEO WILD
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/49103.ts
+#EXTINF:1,PARAMOUNT CHANNEL
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/49122.ts
+#EXTINF:1,PESONA
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/49123.ts
+#EXTINF:1,STAR CHINESE MOVIES
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/49131.ts
+#EXTINF:1,STAR CHINESE LEGEND
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/49124.ts
+#EXTINF:1,TVN
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/49101.ts
+#EXTINF:1,TVN MOVIES
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/49104.ts
+#EXTINF:1,WARNER TV
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/49100.ts
+#EXTINF:1,ANIMAX
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/49161.ts
+#EXTINF:1,ANIPLUS
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/50078.ts
+#EXTINF:1,BIOSKOP INDONESIA
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/50088.ts
+#EXTINF:1,CELESTIAL MOVIES
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/49992.ts
+#EXTINF:1,DISNEY XD
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/50011.ts
+#EXTINF:1,K PLUS
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/50072.ts
+#EXTINF:1,NICKELODEON
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/49967.ts
+#EXTINF:1,SBS IN
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/50079.ts
+#EXTINF:1,THRILL
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/49940.ts
+#EXTINF:1,WAKU WAKU JAPAN
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/50034.ts
+#EXTINF:1,ZEE BIOSKOP
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/49966.ts
+#EXTINF:1,GALAXY
+http://31.220.1.50:7899/live/-mac/fYLkczeLEW/50083.ts
 #EXTINF:1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/02/RTM_HD_Sports.png" group-title="SPORTS",RTM SPORTS HD
 http://rtm2mobile.secureswiftcontent.com/Origin02/ngrp:RTM2/chunklist_b3696000.m3u8
 #EXTINF:1 tvg-logo="https://fn.dmpcdn.com/TrueIDWeb/Home/Campaigns/Channel-True-Premier-Football-HD1.png" group-title="SPORTS",PREMIER HD
