@@ -1,4 +1,20 @@
 #EXTM3U
+#EXTINF:1 tvg-logo="https://i.imgur.com/hyn8nXx.png" group-title="MALAYSIA",ASTRO RIA
+http://50.7.161.82:8278/Ria/playlist.m3u8?tid=m02000000000017229356&ct=17950&tsum=c4fc9360281085f55bf7f6b7da63d9b6
+#EXTINF:1 tvg-logo="https://i.imgur.com/nnnsY6p.png" group-title="MALAYSIA",ASTRO PRIMA
+http://50.7.161.82:8278/Prima/playlist.m3u8?tid=m36fb09f3c61113453606&ct=17858&tsum=3095762479d46a3f27c12c65e15cf93f
+#EXTINF:1 tvg-logo="https://i.imgur.com/FAaVT6C.png" group-title="MALAYSIA",ASTRO CITRA
+http://50.7.161.82:8278/Citra/playlist.m3u8?tid=m519b9f598a4817711682&ct=17934&tsum=4d6f9c9e7b70fd38bc41b5ddd075b526
+#EXTINF:1 tvg-logo="https://i.imgur.com/Gy2jH6I.png" group-title="MALAYSIA",ASTRO WARNA
+http://50.7.161.82:8278/Warna/playlist.m3u8?tid=m8ada85ec4b0014888920&ct=17858&tsum=0dc08d3177880cc647290933111b7bf1
+#EXTINF:1 tvg-logo="https://i.imgur.com/kxk6jOA.png" group-title="MALAYSIA",ASTRO CERIA
+http://50.7.161.82:8278/Ceria/playlist.m3u8?tid=m02000000000014624840&ct=17950&tsum=1d6ed7be64dc2703ae688a369df440f9
+#EXTINF:1 tvg-logo="https://i.imgur.com/paIgT1y.png" group-title="MALAYSIA",NAURA
+http://50.7.161.82:8278/Naura/playlist.m3u8?tid=m02000000000013743124&ct=17950&tsum=44caaaf344841c3fa4d679942c191bae
+#EXTINF:1 tvg-logo="https://i.imgur.com/upXdt5t.png" group-title="MALAYSIA",BOO
+http://50.7.161.82:8278/Boo/playlist.m3u8?tid=m13c9739e046716729882&ct=17910&tsum=385e1887564e255d1164e639259d5793
+#EXTINF:1 tvg-logo="https://astrocontent.s3.amazonaws.com/Images/ChannelLogo/Pos/393_300.png" group-title="ENTERTAINMENT",SONY ONE MY
+http://50.7.161.82:8278/SetOne/playlist.m3u8?tid=m02000000000014244954&ct=17982&tsum=2a160ea054855b501a39a31ef6e18cb8
 #EXTINF:1,STAR MOVIES
 http://31.220.1.50:7899/live/-mac/fYLkczeLEW/5641.m3u8
 #EXTINF:1,NICKELODEON
