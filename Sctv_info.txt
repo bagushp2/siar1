@@ -2,4 +2,4 @@
 ~~ FORMAT: <channel name> | <group name> | <logo> | <tvg-id>
 
 1 | 1 | | 
-https://www.vidio.com/live/204-sctv
+https://www.vidio.com/live/204-sctv/embed
