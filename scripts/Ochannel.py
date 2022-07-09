@@ -26,7 +26,7 @@ def grab(url):
         if 'https://' in response[end-tuner : end]:
             link = response[end-tuner : end]
             start = link.find('https://')
-            end = link.find('ingest_204_720p/index.m3u8') + 5
+            end = link.find('.m3u8') + 5
             break
         else:
             tuner += 5
