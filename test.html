@@ -20,12 +20,9 @@
     <meta name="og:image" content="">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="">
-    <meta name="twitter:description" content="Watch  - ⭐MyPlayerDrive⭐">
+    <meta name="twitter:description" content="Watch  - ⭐MastroLive⭐">
     <meta name="twitter:image" content="">
-    <link rel="manifest" href="https://myplayerdrive.xyz/manifest.webmanifest">
-    <link rel="mask-icon" href="https://myplayerdrive.xyz/assets/img/maskable_icon.png" color="#ffffff">
-    <link rel="shortcut icon" href="" type="image/ico">
-    <title>Watch - ⭐MyPlayerDrive⭐</title>
+    <title>Watch - ⭐MastroLive⭐</title>
     <link rel="preconnect" href="//t.dtscdn.com">
     <link rel="preconnect" href="//e.dtscout.com">
     <link rel="preconnect" href="//s4.histats.com">
@@ -148,9 +145,9 @@
         <button id="closeAds" type="button" onclick="$('#directAds').hide();$('#iframeAds').attr('src', '')" title="Close Ads" aria-label="Close Ads">×</button>
         <iframe id="iframeAds" frameborder="0" width="100%" height="100%"></iframe>
     </div>
-    <script defer src=""></script>
-    <script defer src=""></script>
-    <script defer src=""></script>
+    <script defer src="https://myplayerdrive.xyz/assets/js/sandblaster.js"></script>
+    <script defer src="https://myplayerdrive.xyz/assets/js/prebid-ads.js"></script>
+    <script defer src="https://myplayerdrive.xyz/assets/js/detect-adblocker.min.js"></script>
  
     <script defer src="https://content.jwplatform.com/libraries/KB5zFt7A.js"></script>
     <script defer src="https://myplayerdrive.xyz/assets/vendor/crypto-js/crypto-js.js"></script>
@@ -544,8 +541,8 @@
                         var wo = window.open("", "_blank");
                         setTimeout(function() {
                             if (_hasPopupBlocker(wo) || typeof window.canRunAds === "undefined") {
-                                $("").attr("src", "");
-                                $("").show();
+                                $("#iframeAds").attr("src", "");
+                                $("#directAds").show();
                             }
                         }, 3000);
                     });
