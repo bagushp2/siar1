@@ -12,7 +12,7 @@ Updated m3u links of YouTube live channels, **auto-updated every 3 hours**.
 Edit `channel_info.txt` to add your favourite YouTube livestreams
 
 ### Usage
-Paste this URL: `https://raw.githubusercontent.com/mastrolive/Stream/Channel.m3u8` to any player which supports M3U playlists
+Paste this URL: `https://raw.githubusercontent.com/mastrolive/Stream/Channel.m3u8` to any player which supports M3U8
 
 ### Run the tool on your local machine
 ``` bash
