@@ -5,7 +5,7 @@
 
 `https://raw.githubusercontent.com/mastrolive/Stream/Channel.m3u8`
 
-Updated m3u links of YouTube live channels, **auto-updated every 3 hours**.
+Updated m3u8 links of YouTube live channels, **auto-updated every 3 hours**.
 
 
 ### Add more channels
