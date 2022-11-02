@@ -3,7 +3,7 @@
 
 [![M3U generator for YouTube](https://github.com/mastrolive/YouTube_to_m3u/actions/workflows/m3u_Generator.yml/badge.svg)](https://github.com/mastrolive/YouTube_to_m3u/actions/workflows/m3u_Generator.yml)
 
-`https://raw.githubusercontent.com/xxx/xxx/main/youtube.m3u`
+`https://raw.githubusercontent.com/mastrolive/Stream/Channel.m3u8`
 
 Updated m3u links of YouTube live channels, **auto-updated every 3 hours**.
 
@@ -12,7 +12,7 @@ Updated m3u links of YouTube live channels, **auto-updated every 3 hours**.
 Edit `youtube_channel_info.txt` to add your favourite YouTube livestreams
 
 ### Usage
-Paste this URL: `https://raw.githubusercontent.com/xxx/xxx/main/youtube.m3u` to any player which supports M3U playlists
+Paste this URL: `https://raw.githubusercontent.com/mastrolive/Stream/Channel.m3u8` to any player which supports M3U playlists
 
 ### Run the tool on your local machine
 ``` bash
