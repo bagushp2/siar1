@@ -17,7 +17,7 @@ player.configure({
   drm: {
     clearKeys: {
       // 'key-id-in-hex': 'key-in-hex',
-      '06282157da4e8f97623a70ed017fad10': '8da72ca8501a4deb4bfc381fe1737ef4'
+      'd02eac9aa740543d57519dd3b0de4c10': '32f3d7892399e4e644863760ff28ed3d'
     }
   }
 });
@@ -26,7 +26,7 @@ window.player = player;
 window.ui = ui; 
 player.addEventListener('error', onPlayerErrorEvent); 
 controls.addEventListener('error', onUIErrorEvent); 
-try{await player.load(''); 
+try{await player.load('https://vodejitp-asset-playback-b.astrO.com.my/v1/default/dash-wv/vode/d79d49c6-9ede-5da2-a51b-e05313ecf608/default_primary.mpd'); 
 console.log('The video has now been loaded!');} catch (error) {onPlayerError(error);}} 
 function onPlayerErrorEvent(errorEvent) {onPlayerError(event.detail);} 
 function onPlayerError(error) {console.error('Error code', error.code, 'object', error);} 
