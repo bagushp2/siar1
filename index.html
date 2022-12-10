@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <!-- Our CSS -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet">
+
+<style>
+body {
+ background: #222222;
+ margin: 0;
+ padding: 10px;
+ font-family: 'Public Sans', sans-serif;
+}
+
+.container {
+ max-width: 900px;
+ padding: 0px;
+ background-color: transparent;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 0px;
+ padding-bottom: 10px;
+ border-radius: 0px;
+        }
+
+.mammoth img {
+ width: 100%;
+ margin-bottom: 10px;
+}
+
+.slider .slick-slide {
+ border: solid 0px #000;
+ border-radius: 0px;
+        }
+
+.slider .slick-slide img {
+ width: 100%;
+ border-radius: 0px;
+        }
+
+/* make button larger and change their positions */
+.slick-prev, .slick-next {
+ width: 50px;
+ height: 50px;
+ z-index: 1;
+        }
+.slick-prev {
+ left: 5px;
+        }
+.slick-next {
+ right: 5px;
+        }
+.slick-prev:before, 
+.slick-next:before {
+ font-size: 0px;
+ text-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+        
+/* move dotted nav position */
+.slick-dots {
+ bottom: 15px;
+        }
+/* enlarge dots and change their colors */
+.slick-dots li button:before {
+ font-size: 12px;
+ color: #fff;
+ text-shadow: 0 0 10px rgba(0,0,0,0.5);
+ opacity: 1;
+        }
+.slick-dots li.slick-active button:before {
+ color: #dedede;
+        }
+
+/* hide dots and arrow buttons when slider is not hovered */
+.slider:not(:hover) .slick-arrow,
+.slider:not(:hover) .slick-dots {
+ opacity: 0;
+        }
+/* transition effects for opacity */
+.slick-arrow,
+.slick-dots {
+ transition: opacity 0.5s ease-out;
+        }
+
+/* HORIZONTAL SCROLL */
+.scroll-container {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 10px;
+  background: transparent;
+  height: 100%;
+  scroll-behaviour: smooth;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: auto;
+}
+
+.scroll-container2 {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding: 0px;
+  background: transparent;
+  height: 100%;
+  scroll-behavior: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: auto;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.gridscroll {
+  display: inline-block;
+  padding-right: 0px;
+  margin-right: 8px;
+  scroll-snap-align: start;
+  cursor:default;
+  position: relative;
+}
+
+.gridscroll img {
+  border-radius: 5px;
+  cursor:default;
+}
+
+.gridscroll .btn {
+  position: absolute;
+  color: white;
+  text-align: center;
+  background-color: red;
+  font-size: 9px;
+  border: none;
+  border-radius: 50px;
+  margin-top: 6px;
+  margin-left: 6px;
+  padding: 2px 6px;
+  font-weight: bold;
+}
+
+.gridscroll .btn2 {
+  position: absolute;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.75);
+  font-size: 9px;
+  border: none;
+  border-radius: 50px;
+  margin-top: 6px;
+  margin-left: 6px;
+  padding: 2px 6px;
+  font-weight: bold;
+}
+
+.gridscroll .btn3 {
+  position: absolute;
+  right: 0;
+  color: white;
+  text-align: center;
+  background-color: #3ea055;
+  font-size: 9px;
+  border: none;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-top: 0px;
+  margin-right: 0px;
+  padding: 2px 6px;
+  font-weight: bold;
+}
+
+.title {
+  color: #fefefe;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+
+.h3 {
+  color: #fefefe;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.h32 {
+  color: #fefefe;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 2px;
+  text-align: center;
+}
+
+.h3-text {
+  font-size: 11px;
+  color: #999;
+  margin-top: 2px;
+}
+
+.mobile-nav {
+  background: #000;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bloc-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.bloc-icon img {
+  width: 25px;
+  cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+  .mobile-nav {
+  display: none;
+  }
+  .mammoth img {
+  display: none;
+}
+}
+
+</style></head>
+<body>
+<div class="container">
+	
+<div class="slider">
+<div><a href="go:blackadam"><img src="https://i.imgur.com/5uiyO6b.jpg" alt="Image 1"></a></div>
+
+<div><a href="go:rrich"><img src="https://raw.githubusercontent.com/mastrolive/mastrolive/main/Bg/RebornRich.jpg" alt="Image 2"></a></div>
+
+<div><a href="go:connect"><img src="https://raw.githubusercontent.com/mastrolive/mastrolive/main/Bg/Connect.jpg" alt="Image 3"></a></div>
+
+<div><a href="go:alf3"><img src="https://i.imgur.com/DiFuDdX.jpg" alt="Image 4"></a></div>
+
+<div><a href="go:1cent"><img src="https://i.imgur.com/l1tE2Rh.jpg" alt="Image 5"></a></div></div></div>
+
+<div class="scroll-container" style="padding-top:10px;">
+  <div class="gridscroll">
+    <!-- PLACE YOUR IMG URL HERE -->
+<a href="go:livetv"><img src="https://i.imgur.com/pWolxab.png" height="50" width="50"/></a><div class="h3" style="text-align:center;">Livetv</div></div>
+<div class="gridscroll"><a href="go:radio"><img src="https://i.imgur.com/X6btHR1.png" height="50" width="50"/></a><div class="h3" style="text-align:center;">Radio</div></div>
+<div class="gridscroll"><a href="go:vod"><img src="https://i.imgur.com/qtnolRo.png" height="50" width="50"/></a><div class="h3" style="text-align:center;">Vod</div></div>
+<div class="gridscroll"><a href="go:epl"><img src="https://i.imgur.com/9AS1J9D.png" height="50" width="50"/></a><div class="h3" style="text-align:center;">Epl</div></div>
+<div class="gridscroll"><a href="go:fwc"><img src="https://i.imgur.com/DMGO5ck.png" height="50" width="50"/></a><div class="h3" style="text-align:center;">Fwc</div></div></div>
+
+<div class="title">FIFA World Cup<i class="fas fa-angle-right" style="float:right;margin-right:5px;"></i></div>
+<div class="scroll-container">
+
+<div class="gridscroll"><a href="go:fwc"></button><img src="https://images.sgp2.ott.kaltura.com/Service.svc/GetImage/p/3209/entry_id/aebfa51d26204cb2881202131d7b8c9e/version/0/width/315/height/177/quality/80" height="93" width="166"/></a><div class="h3">(L) Morocco vs Portugal</div><div class="h3-text">10 Dec - 11:00pm</div></div>
+
+<div class="gridscroll"><a href="go:fwc"></button><img src="https://images.sgp2.ott.kaltura.com/Service.svc/GetImage/p/3209/entry_id/d8ffc961bcca4b61ae7763ccfde0e4ea/version/0/width/315/height/177/quality/80" height="93" width="166"/></a><div class="h3">(L) England vs France</div><div class="h3-text">11 Dec - 03:00am</div></div></div>
+
+<div class="title">Latest Movies<i class="fas fa-angle-right" style="float:right;margin-right:10px;"></i></div>
+<div class="scroll-container">
+  <div class="gridscroll">
+    <!-- PLACE YOUR IMG URL HERE -->
+      <a href="go:blackadam"><button class="btn3">HD</button><img src="https://m.media-amazon.com/images/M/MV5BYzZkOGUwMzMtMTgyNS00YjFlLTg5NzYtZTE3Y2E5YTA5NWIyXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg" height="156" width="108"/></a></div>
+
+<div class="gridscroll"><a href="go:rasuk"><button class="btn3">HD</button><img src="https://m.media-amazon.com/images/M/MV5BOTUyYjRiODMtZDg2ZS00N2RlLWJjZTYtOGY4NjM0OWM2N2M3XkEyXkFqcGdeQXVyMTUzMDA3Mjc2._V1_.jpg" height="156" width="108"/></a></div>
+
+<div class="gridscroll"><a href="go:alf3"><button class="btn3">HD</button><img src="https://m.media-amazon.com/images/M/MV5BNzlmMmUyMDAtNDNlNi00ZjJlLWFjM2QtZWNjODA4OGMzZGI0XkEyXkFqcGdeQXVyMTUzMDA3Mjc2._V1_FMjpg_UX1000_.jpg" height="156" width="108"/></a></div>
+
+<div class="gridscroll"><a href="go:gatot"><button class="btn3">HD</button><img src="https://m.media-amazon.com/images/M/MV5BOWEzN2IxOTktMzBjMS00ZWU1LWI0OTgtZjViNWYxOWY1MjUxXkEyXkFqcGdeQXVyNzY4NDQzNTg@._V1_.jpg" height="156" width="108"/></a></div></div>
+
+<div class="title">TV Series<i class="fas fa-angle-right" style="float:right;margin-right:10px;"></i></div>
+<div class="scroll-container">
+  <div class="gridscroll">
+    <!-- PLACE YOUR IMG URL HERE -->
+      <a href="go:rrich"><button class="btn3">ONGOING</button><img src="https://mb.com.ph/wp-content/uploads/2022/11/PLDT-Home-x-Viu-Reborn-Rich.jpg" height="156" width="108"/></a></div>
+
+<div class="gridscroll"><a href="go:connect"><button class="btn3">END</button><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_2_5x/sources/r1/cms/prod/7445/1427445-v-a63842aea071" height="156" width="108"/></a></div>
+
+<div class="gridscroll"><a href="go:1cent"><button class="btn3">END</button><img src="https://i.imgur.com/WnWazxr.jpg" height="156" width="108"/></a></div></div>
+
+<!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!-- Slick JS -->    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+<!-- Our Script -->
+    <script>
+        $(document).ready(function(){
+            $('.slider').slick({
+                autoplay: true,
+                autoplaySpeed: 2500,
+                dots: false
+            });
+        });
+</script>
+
+</body></html>
+    </string>
